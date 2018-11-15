@@ -1,0 +1,39 @@
+.img-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-div  img{
+    cursor: pointer;
+}
+.img-div img:hover{
+    opacity: 0.6;
+    transition: o.3s;
+}
+.number{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+height: 120px;
+}
+.number p{
+    margin: 10px;
+    font-size: 20px;
+}
+.icon >fa-angle-double-right{
+    font-weight: normal !important;
+}
+
+.numb1:hover{
+    background: #ccc;
+    color: black;
+}
+.numb2:hover,  .numb3:hover,  .numb4:hover, .numb5:hover, .icon:hover, .numb1{
+    background: black;
+    color: white;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
