@@ -1,39 +1,134 @@
-.img-div{
-    display: flex;
-    flex-wrap: wrap;
+body {
+  font-family: "Raleway", sans-serif;
 }
-.img-div  img{
-    cursor: pointer;
+.img-div {
+  display: flex;
+  flex-wrap: wrap;
 }
-.img-div img:hover{
-    opacity: 0.6;
-    transition: o.3s;
+.img-div img {
+  cursor: pointer;
 }
-.number{
+.img-div img:hover {
+  opacity: 0.6;
+  transition: o.3s;
+}
+.card {
+  width: 25%;
+}
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 120px;
+}
+.number p {
+  padding: 5px;
+  font-size: 18px;
+}
+.icon > fa-angle-double-right {
+  font-weight: normal !important;
+}
+
+.numb1:hover {
+  background: #ccc;
+  color: black;
+}
+.numb2:hover,
+.numb3:hover,
+.numb4:hover,
+.numb5:hover,
+.icon:hover,
+.numb1 {
+  background: black;
+  color: white;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
+/* About */
+
+.about {
+  height: 100%;
+  background: #616161;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-body {
+  width: 100%;
+}
+.about .card {
+  width: 65%;
+  font-size: 20px;
+}
+.card-img-top {
+  width: 100%;
+}
+.heading{
+  font-weight: normal !important;
+  font-size: 25px; 
+}
+hr{
+    color: white;
+    width: 100%;
+}
+.photo-grey{
+width: 95%;
+color: black;
+background: #9e9e9e;
 display: flex;
 justify-content: center;
 align-items: center;
-flex-direction: row;
-height: 120px;
+padding: 5px;
 }
-.number p{
-    margin: 10px;
-    font-size: 20px;
+.photo-white{
+    width: 5%;
+    background: white;
+  
 }
-.icon >fa-angle-double-right{
-    font-weight: normal !important;
+.photography, .web-design, .photoshop{       
+    display: flex;
 }
-
-.numb1:hover{
-    background: #ccc;
-    color: black;
+.photo{
+    letter-spacing: 5px;
 }
-.numb2:hover,  .numb3:hover,  .numb4:hover, .numb5:hover, .icon:hover, .numb1{
-    background: black;
-    color: white;
-    height: 50px;
-    width: 50px;
+.web-grey{
+    width: 85%;
+   background: #9e9e9e;
+   color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    padding: 5px;
+    }
+    .web-white{
+        width: 15%;
+        background: white;
+      
+    }
+    .pshop-grey{
+        width: 80%;
+       background: #9e9e9e;
+       color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        }
+        .pshop-white{
+            width: 20%;
+            background: white;
+          
+        }
+    
+
