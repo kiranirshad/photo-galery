@@ -1,4 +1,4 @@
-body {
+ body {
   font-family: "Raleway", sans-serif;
 }
 .img-div {
@@ -58,7 +58,7 @@ body {
 .about {
   height: 100%;
   background: #616161;
-  color: white;
+  color:white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,6 +70,8 @@ body {
 .about .card {
   width: 65%;
   font-size: 20px;
+  background: unset;
+  border: none;
 }
 .card-img-top {
   width: 100%;
@@ -79,8 +81,9 @@ body {
   font-size: 25px; 
 }
 hr{
-    color: white;
+    
     width: 100%;
+    background: #ffffff;
 }
 .photo-grey{
 width: 95%;
@@ -130,5 +133,97 @@ padding: 5px;
             background: white;
           
         }
+        .resume{
+          width: 200px;
+          height: 50px;
+          font-size:18px;
+          margin-top: 2em;
+          border: 1px solid white;
+ 
+        }
+  .resume:hover{
+    background: black;
+    color: white;
+    border: 2px solid blue;
+  }
+    
+ 
+ .contact{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  background: #f1f1f1;
+ }
+.contact .card{
+  width: 50%;
+  border: none;
+  background: unset;
+  min-width: 300px;
+
+}
+.send{
+  background: black;
+  border: 1px solid black;
+}
+.send:hover{
+  background: #ccc;
+  border: 1px solid #ccc;
+  color: black;
+}
+.contact .card-title{
+  text-align: center;
+  margin-top: 10px;
+}
+.basic-div{
+  color: black;
+  text-align: center;
+ 
+}
+.name {
+  color: white !important;
+  font-size: 30px;
+  background: black;
+
+}
+.large{
+  height: 50px !important;
+}
+
+@media screen and(max-width:600px){
+  .contact .card{ 
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 
