@@ -1,0 +1,386 @@
+ body {
+  font-family: "Raleway", sans-serif;
+}
+.bg-dark{
+  padding: 20px;
+  position: sticky;
+  top: 20px;
+}
+li{
+  padding: 10px;
+}
+.img-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-div img {
+  cursor: pointer;
+}
+.img-div img:hover {
+  opacity: 0.6;
+  transition: o.3s;
+}
+.card {
+  width: 25%;
+}
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 120px;
+}
+.number p {
+  padding: 5px;
+  font-size: 18px;
+}
+.icon > fa-angle-double-right {
+  font-weight: normal !important;
+}
+
+.numb1:hover {
+  background: #ccc;
+  color: black;
+}
+.numb2:hover,
+.numb3:hover,
+.numb4:hover,
+.numb5:hover,
+.icon:hover,
+.numb1 {
+  background: black;
+  color: white;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
+/* About */
+
+.about {
+  height: 100%;
+  background: #616161;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-body {
+  width: 100%;
+}
+.about .card {
+  width: 65%;
+  font-size: 20px;
+  background: unset;
+  border: none;
+}
+.card-img-top {
+  width: 100%;
+}
+.heading{
+  font-weight: normal !important;
+  font-size: 25px; 
+}
+hr{
+    
+    width: 100%;
+    background: #ffffff;
+  
+}
+.photo-grey{
+width: 95%;
+color: black;
+background: #9e9e9e;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px;
+}
+.photo-white{
+    width: 5%;
+    background: white;
+  
+}
+.photography, .web-design, .photoshop{       
+    display: flex;
+}
+.photo{
+    letter-spacing: 5px;
+}
+.web-grey{
+    width: 85%;
+   background: #9e9e9e;
+   color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    }
+    .web-white{
+        width: 15%;
+        background: white;
+      
+    }
+    .pshop-grey{
+        width: 80%;
+       background: #9e9e9e;
+       color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        }
+        .pshop-white{
+            width: 20%;
+            background: white;
+          
+        }
+        .resume{
+          width: 200px;
+          height: 50px;
+          font-size:18px;
+          margin-top: 2em;
+          border: 1px solid white;
+ 
+        }
+  .resume:hover{
+    background: black;
+    color: white;
+    border: 2px solid blue;
+  }
+    
+ 
+ .contact{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  background: #f1f1f1;
+ }
+.contact .card{
+  width: 50%;
+  border: none;
+  background: unset;
+  min-width: 300px;
+
+}
+.send{
+  background: black;
+  border: 1px solid black;
+}
+.send:hover{
+  background: #ccc;
+  border: 1px solid #ccc;
+  color: black;
+}
+.contact .card-title{
+  text-align: center;
+  margin-top: 10px;
+}
+.basic-div, .pro-div{
+  color: black;
+  text-align: center;
+ 
+}
+.name {
+  color: white !important;
+  font-size: 30px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+
+}
+.large{
+  height: 120px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.large > .price{
+  font-size: 35px;
+}
+.medium{
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:  #f1f1f1;
+}
+.large > .time{
+  opacity: 0.5;
+}
+.line-1{
+  margin-bottom: 25px;
+}
+.line-2{
+  margin-top:2em;
+  margin-bottom: 16px;
+}
+.main-div{
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+}
+#signup-button{
+  background: white !important;
+  border: unset;
+  border-radius: 0px !important;
+ height: 50px;
+ width: 120px;
+}
+#signup-button:hover{
+  background: #ccc !important;
+}
+.pro-div{
+  margin-left: 20px;
+}
+.footer-div1  .card-title, .footer-div2  .card-title, .footer-div3  .card-title{
+font-size: 25px;
+}
+.footer-img{
+height: 60px;
+width: 60px;
+
+}
+.footer-div1 .card-text{
+  font-size: 16px;
+}
+
+ .div1, .div2{
+  display: flex;
+  width: 100%;
+}
+.div1 span, .div2 span{
+  margin-left: 16px;
+}
+.div1, .div2{
+  padding: 16px;
+  border: none;
+}
+
+.div1:hover, .div2:hover{
+  background: black;
+  color: white;
+}
+.footer-top{
+  background:  #9e9e9e;
+  display: flex;
+  padding: 0px !important;
+  flex-wrap: wrap;
+
+}
+.footer-top .card{
+  background: unset;
+ 
+}
+.footer-div2{
+    display: flex;
+  flex-direction: column;
+}
+hr{
+  margin: 0px;
+}
+.footer-top .card{
+  border: none;
+}
+.footer-div3  li{
+  display: inline-block;
+  background:#616161;
+ 
+ width:60px;
+ text-align: center;
+ color: white;
+ font-size: 13px;
+ margin-bottom: 16px;
+
+}
+.footer-div3  ul{
+  margin-right: 0px;
+  padding: 0px;
+}
+.d-flex{
+  flex-wrap: wrap;
+}
+.travel{
+  background: black !important;
+  font-size: 15px !important;
+}
+.about-hr{
+  margin-top: 20px !important;
+  }
+.footer-bottom a{
+color: white;
+text-decoration: underline;
+
+}
+.footer-bottom p{
+  margin: unset;
+  font-weight: normal;
+  font-size: 16px;
+
+}
+.footer-bottom{
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  
+
+}
+.d-flex{
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .card{
+    width: 100%;
+  }
+}
+
+
+@media screen and(max-width:600px){
+  .contact > .card{ 
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
